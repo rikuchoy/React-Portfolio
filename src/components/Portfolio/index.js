@@ -6,34 +6,22 @@ function Portfolio() {
   // Replace links with deployed projects and GitHub repos
   const [projects] = useState([
     {
-      name: 'surf-report',
-      description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'pokedexpert',
+      description: 'HTML/CSS/JavaScript',
+      link: "https://rikuchoy.github.io/Pokedexpert/",
+      repo: "https://github.com/rikuchoy/Pokedexpert"
     },
     {
-      name: 'pastel-puzzels',
-      description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'gameshare',
+      description: 'RESTful API, Node.js, Express.js, MySQL, Sequelize, Handlebars.js, Bootstrap',
+      link: "https://gameshare-97b263a86cef.herokuapp.com/",
+      repo: "https://github.com/rikuchoy/GameShare"
     },
     {
-      name: 'run-buddy',
-      description: 'HTML/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
-    },
-    {
-      name: 'led-wall',
-      description: 'Node/IoT',
-      link: "https://github.com",
-      repo: "https://github.com"
-    },
-    {
-      name: 'calculator',
-      description: 'React/JavaScript/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: 'eventfull',
+      description: 'MERN Stack, Styled-Components',
+      link: "https://rikuchoy.github.io/Eventfull/",
+      repo: "https://eventfull-c6ee6f293464.herokuapp.com/"
     },
   ]);
 
